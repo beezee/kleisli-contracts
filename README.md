@@ -33,6 +33,8 @@ Use of Maybe and Either are well documented [here](http://blog.txus.io/kleisli/)
 
 Use of Validation is well documented [here](https://github.com/beezee/kleisli-validation)
 
+Example use can be seen in the [tests](https://github.com/beezee/kleisli-contracts/blob/master/test/kleisli/contracts_test.rb)
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/kleisli-contracts/fork )
