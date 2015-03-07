@@ -25,6 +25,17 @@ Or install it yourself as:
 
     $ gem install kleisli-contracts
 
+You can then include it in your class as follows:
+
+```ruby
+class Something
+  include Kleisli::Contracts
+end
+```
+
+This will provide you with all the mixins from the Contracts gem, as well as
+the Kleisli specific Contracts defined in this one.
+
 ## Usage
 
 Use of Contracts is well documented [here](http://egonschiele.github.io/contracts.ruby/)
