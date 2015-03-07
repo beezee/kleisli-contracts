@@ -1,0 +1,5 @@
+require 'contracts'
+require 'kleisli/validation'
+require 'kleisli/contracts'
+require 'minitest'
+require 'minitest/autorun'
