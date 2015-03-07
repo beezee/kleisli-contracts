@@ -1,6 +1,13 @@
 # Kleisli::Contracts
 
-TODO: Write a gem description
+Provides the following [Contracts](https://github.com/egonSchiele/contracts.ruby)
+for monads provided by the [Kleisli](https://github.com/txus/kleisli) gem:
+
+```ruby
+MaybeOf[SomeType]
+EitherOf[LeftType, RightType]
+ValidationOf[FailureType, SuccessType]
+```
 
 ## Installation
 
@@ -20,7 +27,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use of Contracts is well documented [here](http://egonschiele.github.io/contracts.ruby/)
+
+Use of Maybe and Either are well documented [here](http://blog.txus.io/kleisli/)
+
+Use of Validation is well documented [here](https://github.com/beezee/kleisli-validation)
 
 ## Contributing
 
