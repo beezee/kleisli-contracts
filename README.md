@@ -25,9 +25,11 @@ Or install it yourself as:
 
     $ gem install kleisli-contracts
 
-You can then include it in your class as follows:
+You can then require and include it in your class as follows:
 
 ```ruby
+require 'kleisli/contracts'
+
 class Something
   include Kleisli::Contracts
 end
