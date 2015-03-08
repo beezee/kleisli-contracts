@@ -5,6 +5,7 @@ require "contracts"
 module Kleisli
   module Contracts
     include ::Contracts
+    include ::Contracts::Modules
 
     def self.included(base)
       base.send(:include, ::Contracts)
